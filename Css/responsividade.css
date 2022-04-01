@@ -10,6 +10,14 @@
         display: block;
     }
 
+    ul
+    {
+        margin: 5px;
+        padding: 0px;
+        display: flex;
+        justify-content: space-around;
+    }
+
     li
     {
         margin: 1px;
