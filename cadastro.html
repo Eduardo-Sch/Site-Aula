@@ -7,6 +7,7 @@
     initial-scale=1.0">
     <link rel="stylesheet" href="/Css/normalize.css">
     <link rel="stylesheet" href="/Css/estilocad.css">
+    <link rel="stylesheet" href="/Css/responsividade.css">
     <title>Contribua</title>
 </head>
 <body>
@@ -15,28 +16,33 @@
         <nav>
             <ul>
                 <li><a href="/Html/quemsomos.html" target="_blank">Quem somos</a></li>
-                <li><a href="/cadastro.html">Contribua</a></li>
             </ul>
         </nav>
     </header>
 	<main>
         <article>
-            <form action="" id="questions" method="post" name="questions">
-                <h1>Contribua</h1>
-                <div>
-                    <label for="name">Nome</label>
-                    <input id="name" name="name" type="text">
+            <form action="">
+                <h1>
+                    Contribua
+                </h1>
+            
+                <div class="input">
+                    <input required type="text" />
+                    <label>Nome</label>
                 </div>
-                <div>
-                    <label for="email">E-mail</label>
-                    <input id="email" name="email" type="email" placeholder="email@exemplo.com">
+            
+            
+                <div class="input">
+                    <input required type="email" />
+                    <label>Email</label>
                 </div>
-                <div>
-                    <label for="tel">Telefone</label>
-                    <input id="phone" name="phone" type="tel">
+
+                <div class="input">
+                    <input required type="text" />
+                    <label>Cpf</label>
                 </div>
-                <input type="submit" value="Enviar">
-            </form>
+            
+                <button type="submit"><b>Enviar</b></button>
         </article>
         <aside>
             <img src="/Assets/batatacorrendo.jpg" alt="the money tata">
